@@ -30,7 +30,7 @@ const Navbar = ({ reloadnavbar }) => {
     return (
         <nav>
             <div className='s1'>
-                <img src={logo} alt='logo' className='logo' />
+            <Link to ='/home'><img src={logo} alt='logo' className='logo' /></Link>
 
                 <div className='searchbar'>
                     <input typ="text" placeholder="Search for products and categries" className='search' />

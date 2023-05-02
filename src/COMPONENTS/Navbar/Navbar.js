@@ -78,13 +78,14 @@ const Navbar = ({ reloadnavbar }) => {
                 </Link>
                 <Dropdown>
                     <Dropdown.Toggle variant="" id="dropdown-basic">
-                        Categories
+                        Services
                     </Dropdown.Toggle>
 
                     <Dropdown.Menu>
-                        <Dropdown.Item href="#/action-1">Fresh Vegetables</Dropdown.Item>
-                        <Dropdown.Item href="#/action-2">Fresh Fruits</Dropdown.Item>
-                        <Dropdown.Item href="#/action-3">House Cleaning</Dropdown.Item>
+                        <Dropdown.Item href="#/action-1">Buy a Pet</Dropdown.Item>
+                        <Dropdown.Item href="#/action-2">Grooming</Dropdown.Item>
+                        <Dropdown.Item href="#/action-3">Doctor Appointment</Dropdown.Item>
+                        <Dropdown.Item href="#/action-3">Breeding</Dropdown.Item>
                     </Dropdown.Menu>
                 </Dropdown>
                 <Link to='/about'>

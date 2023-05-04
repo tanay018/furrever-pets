@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './Navbar.css'
-import logo from '../../ASSETS/logo.png'
+import logo from '../../ASSETS/logo1.png'
 import Dropdown from 'react-bootstrap/Dropdown'
 import { Link } from 'react-router-dom'
 const Navbar = ({ reloadnavbar }) => {

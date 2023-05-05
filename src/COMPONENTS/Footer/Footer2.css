@@ -4,6 +4,8 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    background-color: rgb(170, 210, 145);
+  
 }
 
 .footerin1 {
@@ -60,7 +62,8 @@
 
 .footerin1 .f2 p:hover{
     cursor: pointer;
-    color: var(--col1);
+    color:  rgb(112, 114, 112);
+
 }
 
 .footerin1 .f2 .inputcontainer {
@@ -70,9 +73,10 @@
     align-items: center;
     justify-content: space-between;
     overflow: hidden;
-    border: 1px solid #e0e0e0;
+    border: 1px solid #e4dbdb;
     margin: 10px 0px;
-    padding: 5px 5px;
+    padding: 0px 15px;
+    border-radius: 5px;
 }
 
 .footerin1 .icon1 {

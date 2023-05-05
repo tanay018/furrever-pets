@@ -1,9 +1,9 @@
 import React from 'react'
 import './HomeCategories.css'
 import img1 from '../../ASSETS/Images/1.png'
-import img2 from '../../ASSETS/Images/2.png'
-import img3 from '../../ASSETS/Images/3.png'
-import img4 from '../../ASSETS/Images/4.png'
+import img5 from '../../ASSETS/Images/5.png'
+import img6 from '../../ASSETS/Images/6.png'
+import img7 from '../../ASSETS/Images/7.png'
 
 const HomeCategories = () => {
   return (
@@ -12,36 +12,36 @@ const HomeCategories = () => {
         <img src={img1} alt='img1' />
         <div className='content'>
           <h1>
-            Vegetables at your doorstep
+           Grooming 
           </h1>
-          <p> Shop vegetables now</p>
+          {/* <p> Shop vegetables now</p> */}
         </div>
       </div>
       <div className='container'>
-        <img src={img2} alt='img2' />
+        <img src={img5} alt='img5' />
         <div className='content'>
           <h1>
-            Vegetables at your doorstep
+            Accessories
           </h1>
-          <p> Shop vegetables now</p>
+          <p> Shop now</p>
         </div>
       </div>
       <div className='container'>
-        <img src={img3} alt='img3' />
+        <img src={img6} alt='img6' />
         <div className='content'>
           <h1>
-            Vegetables at your doorstep
+            Food
           </h1>
-          <p> Shop vegetables now</p>
+          <p> Shop  now</p>
         </div>
       </div>
       <div className='container'>
-        <img src={img4} alt='img4' />
+        <img src={img7} alt='img7' />
          <div className='content'>
           <h1>
-            Vegetables at your doorstep
+           Toys
           </h1>
-          <p> Shop vegetables now</p>
+          <p> Shop  now</p>
         </div>
       </div>
     </div>

@@ -360,6 +360,14 @@
     
     .pgcommon img {
         width: 90%;
+      
+    }
+    .pp img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+
     }
 
     .pgcommon div {

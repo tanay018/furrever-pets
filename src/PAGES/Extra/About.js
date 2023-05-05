@@ -18,7 +18,7 @@ const About = () => {
         bannerimage= 'https://bighandslittlepaws.org/wp-content/uploads/cat-and-dog.jpg'
         />
         <div className='pgleft pgcommon'>
-            <img src='https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80' alt='noimg' />
+            <img src='https://img.freepik.com/premium-vector/pet-shop-dog-cat-cartoon-vector-icon-illustration_480044-815.jpg' alt='noimg' />
 
             <div>
                 <h1>Our Story</h1>
@@ -27,7 +27,7 @@ const About = () => {
             </div>
         </div>
         <div className='pgright pgcommon'>
-            <img src='https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80' alt='noimg' />
+            <img src='https://img.freepik.com/free-vector/cute-dog-cute-cat-cartoon-illustration_138676-3238.jpg' alt='noimg' />
 
             <div>
                 <h1>Who are we</h1>
@@ -35,8 +35,8 @@ const About = () => {
 
             </div>
         </div>
-        <div className='pgleft pgcommon'>
-            <img src='https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80' alt='noimg' />
+        <div className='pp'>
+            <img src='https://static.vecteezy.com/system/resources/previews/004/725/909/original/cute-corgi-dog-hugging-cat-vector.jpg' alt='noimg' />
 
             <div>
                 <h1>Our Story</h1>

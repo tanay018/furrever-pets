@@ -1,7 +1,7 @@
 nav {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    /* padding: 10px; */
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -9,11 +9,12 @@ nav svg {
     width: 25px;
     height: 25px;
     cursor: pointer;
+    color: black;
    
 }
 
 nav svg:hover {
-    color: ;
+    color: rgb(112, 114, 112);
 }
 
 nav .s1 {
@@ -34,18 +35,20 @@ nav img {
 
 nav .searchbar {
     display: flex;
-    border: none;
+    border: none ;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     overflow: hidden;
-    padding: 5px;
+    padding:0px 50px 0px 50px;
     justify-content: space-between;
     width: 50%;
+    background-color: white;
 }
 
 nav .searchbar input {
     border: none;
     outline: none;
+    border-radius: 5px;
     width: 100%;
     font-size: 14px;
 }
@@ -67,7 +70,7 @@ nav .searchbar button {
     border: none;
     background-color: transparent;
     cursor: pointer;
-    color:  black;
+    color:  rgb(161, 16, 16);
 
 }
 
@@ -81,6 +84,7 @@ nav .s1 .right {
 nav .cart {
     position: relative;
     margin: 0px 20px;
+   
 }
 
 nav .cart .qty {
@@ -118,12 +122,13 @@ nav .s2 a{
 }
 
 nav .s2 a:hover{
-    color: rgb(170, 210, 145);
+    color: rgb(112, 114, 112);
 }
 
 
 nav .s3 {
     display: none;
+    
 }
 
 @media screen and (max-width: 768px){
@@ -190,10 +195,11 @@ nav .s3 {
         color: rgb(8, 3, 3);
     }
     nav .s3 .s32 svg{
-        color: rgb(4, 1, 1);
+        color: black;
     }
 
     nav #dropdown-basic{
         color: rgb(16, 5, 5);
     }
+    
 }

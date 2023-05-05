@@ -1,6 +1,6 @@
 import React from 'react'
 import payimg from '../../ASSETS/pay.png'
-import logo from '../../ASSETS/logo.png'
+import logo from '../../ASSETS/logo1.png'
 import social from '../../ASSETS/social.png'
 import './Footer2.css'
 import { Link } from 'react-router-dom'

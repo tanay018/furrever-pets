@@ -35,8 +35,8 @@ const About = () => {
 
             </div>
         </div>
-        <div className='pp'>
-            <img src='https://static.vecteezy.com/system/resources/previews/004/725/909/original/cute-corgi-dog-hugging-cat-vector.jpg' alt='noimg' />
+        <div className='pgleft pgcommon'>
+            <img src='https://w7.pngwing.com/pngs/674/885/png-transparent-pet-shop-illustration-alecrim-pet-e-jardim-loja-2-pet-shop-pet-shop-model-celebrities-building-pet-thumbnail.png' alt='noimg' />
 
             <div>
                 <h1>Our Story</h1>

@@ -60,8 +60,8 @@ const ProductCard = ({ data }) => {
     <div className='product'>
       <div className='s1'>
         
-      <img src='https://cdn.shopify.com/s/files/1/0022/7232/9789/products/Pedigree-Puppy-Dry-Dog-Food-Food_-Chicken-_-Milk_-20-kg-Amanpetshop-1655826524.jpg?v=1655826525'alt='noimg' />
-        {/* <img src={data.ProductImage[0].image} alt={'no img'} /> */}
+      {/* <img src='https://cdn.shopify.com/s/files/1/0022/7232/9789/products/Pedigree-Puppy-Dry-Dog-Food-Food_-Chicken-_-Milk_-20-kg-Amanpetshop-1655826524.jpg?v=1655826525'alt='noimg' /> */}
+        <img src={data.ProductImage[0].image} alt={'no img'} />
       </div>
       <div className='s2'>
         <h3>

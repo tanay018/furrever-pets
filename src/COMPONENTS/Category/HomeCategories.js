@@ -1,6 +1,6 @@
 import React from 'react'
 import './HomeCategories.css'
-import img1 from '../../ASSETS/Images/1.png'
+import img1 from '../../ASSETS/Images/grrom.png'
 import img5 from '../../ASSETS/Images/5.png'
 import img6 from '../../ASSETS/Images/6.png'
 import img7 from '../../ASSETS/Images/7.png'
@@ -10,6 +10,7 @@ const HomeCategories = () => {
     <div className='homecategories'>
       <div className='container'>
         <img src={img1} alt='img1' />
+      
         <div className='content'>
           <h1>
            Grooming 

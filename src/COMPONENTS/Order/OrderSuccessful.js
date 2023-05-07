@@ -8,11 +8,11 @@ const OrderSuccessful = ({ orderid, message, redirecto }) => {
     const [ordersuccesscont, setordersuccesscont] = useRecoilState(orderSuccessfulProvider)
     const [orderdata, setorderdata] = useState({
         OrderNo: orderid,
-        OrderDate: '12/12/2021',
+        OrderDate: '08/05/2023',
         OrderStatus: 'Delivered',
-        CustomerName: 'Harshal Jain',
-        CustomerShipToAddress: 'B-101, Shreeji Apartment, Near Shreeji Hospital, Kalyan West, Thane, Maharashtra 421301',
-        CustomerEmail: 'virajj014@gmail.com',
+        CustomerName: 'Tanay Bhuta',
+        CustomerShipToAddress: 'B-101, Shreeji Apartment, Near Shreeji Hospital, Indore , Madhya Pradesh 452009',
+        CustomerEmail: 'tanaybhuta@gmail.com',
         OrderItems: [
             {
                 ProductName: 'Product 1',

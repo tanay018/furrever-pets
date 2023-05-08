@@ -10,7 +10,7 @@ const Footer2 = () => {
       <div className='footerin1'>
         <div className='f1'>
           <img src={logo} alt='logo' className='logo' />
-          <p>Fit Grocery is a leading online grocery store in the USA. We are committed to providing the best quality products at the best prices.</p>
+          <p>Fit Grocery is a online pet store in the town. We are committed to providing the best quality products at the best prices.</p>
           <img src={social} alt='social' className='social' />
 
         </div>
@@ -66,7 +66,7 @@ const Footer2 = () => {
         </div>
       </div>
       <div className='footerin2'>
-        <h3>© Copyright 2023 Fit Grocery, Inc.  All rights reserved</h3>
+        <h3>© Copyright 2023 FurrEver, Inc.  All rights reserved</h3>
         <img src={payimg} alt='payimg' />
       </div>
     </div>

@@ -207,7 +207,7 @@ const Navbar = ({ reloadnavbar }) => {
                     </div>
                     :
                     <div className='s3'>
-                        <div className='s31'>
+                        <div id='tanai' className='s31'>
                             <img src={logo} alt='logo' className='logo' />
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"
                                 onClick={() => setshows3(!shows3)}

@@ -10,14 +10,14 @@
 .homecategories .container {
     width: 24%;
     min-width: 300px;
-    height: 180px;
+    height: 230px;
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    margin: 5px;
+    margin: 6px;
 }
 
 .homecategories .container img{
@@ -36,7 +36,7 @@
     flex-direction: column;
 }
 .homecategories .container .content h1{
-    font-size: 20px;
+    font-size: 30px;
     font-weight:400;
     margin: 0;
 }
@@ -44,8 +44,8 @@
 .homecategories .container .content p{
     font-size: 15px;
     font-weight:300;
-    margin: 0;
-    padding: 0px;
+    margin: 10;
+    padding: 10px;
 }
 
 .homecategories .container:nth-child(1){

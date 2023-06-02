@@ -10,42 +10,42 @@ const CategorySidebar = () => {
         {
             id: 1,
             categoryimage: img1,
-            categoryname: 'Category 1'
+            categoryname: 'Name tags'
         },
         {
             id: 2,
             categoryimage: img2,
-            categoryname: 'Category 2'
+            categoryname: 'Hygiene'
         },
         {
             id: 3,
             categoryimage: img3,
-            categoryname: 'Category 3'
+            categoryname: 'Treats'
         },
         {
             id: 4,
             categoryimage: img4,
-            categoryname: 'Category 4'
+            categoryname: 'Bowl & Feeder'
         },
         {
             id: 5,
             categoryimage: img1,
-            categoryname: 'Category 5'
+            categoryname: 'Clothes'
         },
         {
             id: 6,
             categoryimage: img2,
-            categoryname: 'Category 6'
+            categoryname: 'Biscuits'
         },
         {
             id: 7,
             categoryimage: img3,
-            categoryname: 'Category 7'
+            categoryname: 'Medicines'
         },
         {
             id: 8,
             categoryimage: img4,
-            categoryname: 'Category 8'
+            categoryname: 'Supplement'
         }
     ]
     return (

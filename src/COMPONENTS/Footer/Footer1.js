@@ -49,6 +49,7 @@ const Footer1 = () => {
    
     var settings = {
         dots: true,
+        arrows: true,
         infinite: true,
         speed: 500,
         slidesToShow: 1,
@@ -70,6 +71,23 @@ const Footer1 = () => {
         //         </p>
         //     </div>
         // </div>
+
+//         <div class="slider">
+//   <div class="slide">
+//     <h3>Customer Feedback 1</h3>
+//     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+//   </div>
+//   <div class="slide">
+//     <h3>Customer Feedback 2</h3>
+//     <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+//   </div>
+//   <div class="slide">
+//     <h3>Customer Feedback 3</h3>
+//     <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+//   </div>
+// </div>
+
+        
         <Slider className='bannerslider' {...settings}>
         {
             data.map(item => {
@@ -80,6 +98,7 @@ const Footer1 = () => {
                             {/* <h1>{item.title}</h1>
                             <span>{item.description}</span> */}
                             {/* <button>Shop More</button> */}
+                          
                         </div>
                     </div>
                 )

@@ -21,7 +21,7 @@
     height: 50px;
     border: none;
     border-radius: 5px;
-    background-color: var(--col1);
+    background-color:var(--col1);
     color: white;
     font-size: 16px;
     font-weight: 700;

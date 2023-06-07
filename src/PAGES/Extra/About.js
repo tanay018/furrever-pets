@@ -43,7 +43,7 @@ const About = () => {
                 <p> At FurrEver, we believe in fostering a vibrant and supportive pet-loving community. Our blog section is a valuable resource for pet owners, featuring informative articles, tips, and advice on various topics, including pet care, training, nutrition, health, and behavioral issues. We are committed to empowering pet owners with the knowledge they need to provide the best care for their beloved companions.</p>
             </div>
         </div>
-        <Footer1/>
+        {/* <Footer1/> */}
         <Footer2/>
         </div>
   )

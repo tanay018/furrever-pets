@@ -6,6 +6,13 @@
     width: 100%;
     margin: 20px 0px;
 }
+/* .container :hover {
+    scale: 1;
+} */
+.homecategories :hover {
+    scale: 1.01;
+}
+
 
 .homecategories .container {
     width: 24%;
